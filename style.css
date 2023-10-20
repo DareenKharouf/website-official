@@ -1,0 +1,153 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust the value as per your preference */
+    margin-top: 20px; /* Adjust the value as per your preference */
+
+}
+
+/* Set a background color and font for the page */
+body {
+    background-color: #f4f7fa;
+    font-family: 'Arya', sans-serif;
+    color: #333;
+}
+
+/* Center the content on the page */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style headings */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2, h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Create a clean and simple card layout */
+.column {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+/* this is the card for the "BSL, courses, sports, DoE" */
+.card {
+    background-color:#ffffff;; /* Change the background color */
+    border-radius: 10px; /* Adjust the border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add a subtle box shadow */
+    padding: 20px; /* Adjust the padding */
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px; 
+    transition: transform 0.2s; /* Add a smooth transition effect on hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+}
+
+/* text: "BSL, courses, sports, DoE" */
+.card h3 {
+    text-align: center; /* Center the text */
+    color: black; /* Change the text color to blue (#007BFF) */
+}
+
+
+/* Style links */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: blink;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button-container a:hover {
+    background-color: #0056b3;
+}
+
+.button-container h3 {
+    margin: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+/* the card for introduction */
+
+.intro-block {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px; /* Adjust the maximum width as per your preference */
+    text-align: center; /* Center the content */
+    max-width: 1000px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1); /* Add a subtle box shadow */
+
+}
+
+/* the text in introduction block */
+.intro-block p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+}
+
+.intro-block img {
+    max-width: 100%;
+    border-radius: 8px; /* Add this line to give the image rounded edges */
+    margin-top: 20px;
+}
+
